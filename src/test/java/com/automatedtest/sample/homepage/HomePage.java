@@ -81,14 +81,4 @@ public class HomePage extends BasePage{
         String currentUrl = driver.getCurrentUrl();
         return currentUrl;
     }
-
-/*
-    void checkSearchBarDisplay() {
-        wait.forElementToBeDisplayed(10, this.searchInput, "Search Bar");
-    }
-
-    void searchFor(String searchValue) {
-        this.searchInput.sendKeys(searchValue);
-        this.searchInput.sendKeys(Keys.ENTER);
-    }*/
 }
