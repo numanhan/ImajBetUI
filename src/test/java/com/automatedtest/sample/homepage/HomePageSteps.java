@@ -58,22 +58,4 @@ public class HomePageSteps {
         Assert.assertTrue("Message is " + expectedUrl + " instead of " + actualUrl,
                 actualUrl.contains(expectedUrl));
     }
-
-/*
-    @And("^search bar is displayed$")
-    public void searchBarIsDisplayed() {
-        this.homePage.checkSearchBarDisplay();
-    }
-
-    @Then("^page title is \"([^\"]*)\"$")
-    public void pageTitleIs(String title) {
-        String displayedTitle = this.homePage.getTitle();
-        Assert.assertTrue("Displayed title is " + displayedTitle + " instead of " + title,
-                title.equals(displayedTitle));
-    }
-
-    @When("^a user searches for \"([^\"]*)\"$")
-    public void aUserSearchesFor(String searchValue) {
-        this.homePage.searchFor(searchValue);
-    }*/
 }
