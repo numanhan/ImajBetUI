@@ -63,7 +63,7 @@ public class SignupPage extends BasePage{
     private WebElement registerTermsAndConditions;
 
     @FindBy(xpath = "//button[contains(text(),'Üye Ol')]")
-    private WebElement testbutton;
+    private WebElement registerButton;
 
     @FindBy(css = ".signup-success h4")
     private WebElement signupSuccessText;
@@ -77,8 +77,8 @@ public class SignupPage extends BasePage{
     }
 
     void signup() {
-        wait.forElementToBeDisplayed(10, this.testbutton, "testbutton");
-        testbutton.click();
+        wait.forElementToBeDisplayed(10, this.registerButton, "testbutton");
+        registerButton.click();
     }
 
     void fillArea() {
