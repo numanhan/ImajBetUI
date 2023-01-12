@@ -1,4 +1,6 @@
-# Writing an Automation Project Using Cucumber, Selenium WebdriverIO,
+# Writing an Automation Project Using Cucumber, Selenium WebdriverIO.
+
+Page Object Model (POM) is a design pattern that is used to create an object repository for web UI elements in a Selenium automation project. In this project, we have implemented POM to improve the maintainability and readability of our test scripts.
 
 This project includes automation of login and sign up pages for imajbet.
 
