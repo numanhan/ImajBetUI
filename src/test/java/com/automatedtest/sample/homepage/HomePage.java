@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends BasePage{
 
-    private static final String HOME_PAGE_URL = "https://imajbet1216.com/tr";
+    private static final String HOME_PAGE_URL = "https://imajbet****.com/tr";
 
     @FindBy(css = ".popup_container")
     private WebElement popup;
