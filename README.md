@@ -1,4 +1,4 @@
-# Automated test example in Java with Cucumber and Selenium WebDriver
+# Writing an Automation Project Using Cucumber, Selenium WebdriverIO,
 
 This project includes automation of login and sign up pages for imajbet.
 
