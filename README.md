@@ -1,11 +1,10 @@
--- Automated test example in Java with Cucumber and Selenium WebDriver --
+# Automated test example in Java with Cucumber and Selenium WebDriver
 
 This project includes automation of login and sign up pages for imajbet.
 
 Test scenarios are described in the feature files located here ./src/test/resources/com/automatedtest/sample.
 
-
--- Installation --
+## Installation
 
 You need to have [Java 8 JDK](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) installed along with [maven](https://maven.apache.org/download.cgi).
 
